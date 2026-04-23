@@ -1,0 +1,56 @@
+[0.025s] Invoking command in '/home/payn/ros2_ws/src/sam_bot_description/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/payn/ros2_ws/src/sam_bot_description -DCMAKE_INSTALL_PREFIX=/home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description
+[0.791s] -- The C compiler identification is GNU 13.3.0
+[3.874s] -- The CXX compiler identification is GNU 13.3.0
+[6.585s] -- Detecting C compiler ABI info
+[7.343s] -- Detecting C compiler ABI info - done
+[7.351s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.358s] -- Detecting C compile features
+[7.359s] -- Detecting C compile features - done
+[7.745s] -- Detecting CXX compiler ABI info
+[8.582s] -- Detecting CXX compiler ABI info - done
+[8.592s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.592s] -- Detecting CXX compile features
+[8.593s] -- Detecting CXX compile features - done
+[8.665s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[8.846s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[9.059s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[9.228s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.228s] -- Configured cppcheck include dirs: 
+[9.228s] -- Configured cppcheck exclude dirs and/or files: 
+[9.231s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.231s] -- Configured 'flake8' exclude dirs and/or files: 
+[9.235s] -- Added test 'lint_cmake' to check CMake code style
+[9.237s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.243s] -- Added test 'uncrustify' to check C / C++ code style
+[9.243s] -- Configured uncrustify additional arguments: 
+[9.245s] -- Added test 'xmllint' to check XML markup files
+[9.249s] -- Configuring done (9.1s)
+[9.255s] -- Generating done (0.0s)
+[9.258s] -- Build files have been written to: /home/payn/ros2_ws/src/sam_bot_description/build/sam_bot_description
+[9.263s] Invoked command in '/home/payn/ros2_ws/src/sam_bot_description/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/payn/ros2_ws/src/sam_bot_description -DCMAKE_INSTALL_PREFIX=/home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description
+[9.264s] Invoking command in '/home/payn/ros2_ws/src/sam_bot_description/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/payn/ros2_ws/src/sam_bot_description/build/sam_bot_description -- -j8 -l8
+[9.300s] Invoked command in '/home/payn/ros2_ws/src/sam_bot_description/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/payn/ros2_ws/src/sam_bot_description/build/sam_bot_description -- -j8 -l8
+[9.309s] Invoking command in '/home/payn/ros2_ws/src/sam_bot_description/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/payn/ros2_ws/src/sam_bot_description/build/sam_bot_description
+[9.316s] -- Install configuration: ""
+[9.316s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/src
+[9.317s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/src/sam_bot_description.urdf
+[9.318s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/launch
+[9.318s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py
+[9.318s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/rviz
+[9.319s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/rviz/config.rviz
+[9.320s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/ament_index/resource_index/package_run_dependencies/sam_bot_description
+[9.321s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/ament_index/resource_index/parent_prefix_path/sam_bot_description
+[9.322s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.sh
+[9.322s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.dsv
+[9.323s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/environment/path.sh
+[9.323s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/environment/path.dsv
+[9.324s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/local_setup.bash
+[9.324s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/local_setup.sh
+[9.325s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/local_setup.zsh
+[9.325s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/local_setup.dsv
+[9.325s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/package.dsv
+[9.326s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/ament_index/resource_index/packages/sam_bot_description
+[9.327s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig.cmake
+[9.327s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig-version.cmake
+[9.327s] -- Installing: /home/payn/ros2_ws/src/sam_bot_description/install/sam_bot_description/share/sam_bot_description/package.xml
+[9.329s] Invoked command in '/home/payn/ros2_ws/src/sam_bot_description/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/payn/ros2_ws/src/sam_bot_description/build/sam_bot_description
