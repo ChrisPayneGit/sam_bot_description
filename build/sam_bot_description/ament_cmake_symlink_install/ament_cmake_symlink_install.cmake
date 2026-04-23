@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "src" "launch" "rviz" "DESTINATION" "share/sam_bot_description")
-ament_cmake_symlink_install_directory("/home/payn/ros2_ws/src/sam_bot_description" DIRECTORY "src" "launch" "rviz" "DESTINATION" "share/sam_bot_description")
+# install(DIRECTORY "src" "launch" "rviz" "config" "world" "DESTINATION" "share/sam_bot_description")
+ament_cmake_symlink_install_directory("/home/payn/ros2_ws/src/sam_bot_description" DIRECTORY "src" "launch" "rviz" "config" "world" "DESTINATION" "share/sam_bot_description")
 
 # install(FILES "/home/payn/ros2_ws/src/sam_bot_description/build/sam_bot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/sam_bot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/payn/ros2_ws/src/sam_bot_description" FILES "/home/payn/ros2_ws/src/sam_bot_description/build/sam_bot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/sam_bot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
