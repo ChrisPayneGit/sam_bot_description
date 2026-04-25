@@ -7,6 +7,7 @@ This is a repos following the ROS2 NAV2 Tutorial, "Setting Up the URDF" (https:/
 * [**Setting Up Odometry**](https://docs.nav2.org/setup_guides/odom/setup_odom_gz.html): Adding the required elements to produce the transforms and messages expected by the Nav2 odometry system
 * [**Smoothing Odometry using Robot Localization**](https://docs.nav2.org/setup_guides/odom/setup_robot_localization.html): Implemented the *robot_localization* node to produce filtered and smoothed odometry sensor data from multiple sources, i.e. wheel encoders and IMUs
 * [**Setting Up Sensors - Gazebo**](https://docs.nav2.org/setup_guides/sensors/setup_sensors_gz.html): Added a basic sensor setup to sam_bot's Gazebo *.sdf* and *.urdf*, including a LIDAR and a RBGD Depth Camera
+* [**Mapping and Localization**](https://docs.nav2.org/setup_guides/sensors/mapping_localization.html): Set up the *slam_toolbox* and *nav2_amcl* for sam_bot, showing the costmap and occupancy grid from the LIDAR sensor.
 
 ## Next Up To Complete:
-* [**Mapping and Localization**](https://docs.nav2.org/setup_guides/sensors/mapping_localization.html): Setting up the *slam_toolbox* and *nav2_amcl* for sam_bot
+* [**Setting Up the Robot’s Footprint**](https://docs.nav2.org/setup_guides/footprint/setup_footprint.html): Setting up the robot's footprint of course!
