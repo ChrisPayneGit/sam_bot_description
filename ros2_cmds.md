@@ -21,4 +21,6 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
 ros2 topic pub /goal_pose geometry_msgs/PoseStamped "{header: {stamp: {sec: 0}, frame_id: 'map'}, pose: {position: {x: 0.2, y: 0.0, z: 0.0}, orientation: {w: 1.0}}}"
 
 # Example: *turtle_bot3 (waffle)*
-ros2 launch nav2_bringup tb3_simulation_launch.py slam:=True
+* ros2 launch nav2_bringup tb3_simulation_launch.py slam:=True
+* Where to find the code:
+-  cat /opt/ros/jazzy/share/nav2_bringup/launch/tb3_simulation_launch.py
