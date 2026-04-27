@@ -9,7 +9,7 @@ This is a repos following the ROS2 NAV2 Tutorial, "Setting Up the URDF" (https:/
 * [**Setting Up Sensors - Gazebo**](https://docs.nav2.org/setup_guides/sensors/setup_sensors_gz.html): Added a basic sensor setup to sam_bot's Gazebo *.sdf* and *.urdf*, including a LIDAR and a RBGD Depth Camera
 * [**Mapping and Localization**](https://docs.nav2.org/setup_guides/sensors/mapping_localization.html): Set up the *slam_toolbox* and *nav2_amcl* for sam_bot, showing the costmap and occupancy grid from the LIDAR sensor.
 * [**Setting Up the Robot’s Footprint**](https://docs.nav2.org/setup_guides/footprint/setup_footprint.html): Set up the sam_bot's local and global footprint as a polygon and circle, respectivley. This was based on the default from *nav2_params.yaml*.
-
+* [**Setting Up Navigation Plugins**](https://docs.nav2.org/setup_guides/algorithm/select_algorithm.html): Set up sam_bot to use different planner and controller algorithms to complete navigation tasks.
 
 ## Next Up To Complete:
-* [**Setting Up Navigation Plugins**](https://docs.nav2.org/setup_guides/algorithm/select_algorithm.html): Setting up sam_bot to use different planner and controller algorithms to complete navigation tasks.
+* **ALL TUTORIALS HAVE BEEN COMPLETED IN THIS SERIES**
